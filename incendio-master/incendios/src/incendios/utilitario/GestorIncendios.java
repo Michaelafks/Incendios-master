@@ -77,9 +77,19 @@ public class GestorIncendios {
         return null;
     }
 
-    public List<Incendio> getIncendios() { return incendios; }
-    public List<Brigada> getBrigadas() { return brigadas; }
-    public List<Brigadista> getBrigadistas() { return brigadistas; }
-    public List<SectorPoblado> getSectores() { return sectores; }
-    public List<Recurso> getRecursos() { return recursos; }
+    public List<Incendio> getIncendios() {
+        return incendios;
+    }
+    public List<Brigada> getBrigadas() {
+        return brigadas;
+    }
+    public List<Brigadista> getBrigadistas() {
+        return brigadistas;
+    }
+    public List<SectorPoblado> getSectores() {
+        return sectores;
+    }
+    public List<Recurso> getRecursos() {
+        return recursos;
+    }
 }
