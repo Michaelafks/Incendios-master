@@ -279,3 +279,5 @@ public class Incendio {
         if (no.isEmpty()) sb.append("Ninguno\n");
         for (Recurso r : no) sb.append(r.reportarDisponibilidad()).append("\n");
         return sb.toString();
+    }
+

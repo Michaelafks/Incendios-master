@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="Gets y Sets">
-      <change beforePath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/Incendio.java" beforeDir="false" afterPath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/Incendio.java" afterDir="false" />
-    </list>
+    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="brigadas, evacuación y recursos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +92,8 @@
     <MESSAGE value="Declaraacion de variables" />
     <MESSAGE value="Constructor" />
     <MESSAGE value="Gets y Sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gets y Sets" />
+    <MESSAGE value="atributos, constructor, IEP, severidad" />
+    <MESSAGE value="brigadas, evacuación y recursos" />
+    <option name="LAST_COMMIT_MESSAGE" value="brigadas, evacuación y recursos" />
   </component>
 </project>
