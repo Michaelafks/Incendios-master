@@ -319,4 +319,5 @@ public class Incendio {
     public List<Brigada> getBrigadas() { return brigadas; }
     public List<SectorPoblado> getSectoresAfectados() { return sectoresAfectados; }
     public List<incendios.modelo.AsignacionRecurso> getAsignaciones() { return asignaciones; }
+
 }
