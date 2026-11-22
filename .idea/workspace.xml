@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="brigadas, evacuación y recursos" />
+    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="reportes, getters/setters y cierre de clase" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +94,7 @@
     <MESSAGE value="Gets y Sets" />
     <MESSAGE value="atributos, constructor, IEP, severidad" />
     <MESSAGE value="brigadas, evacuación y recursos" />
-    <option name="LAST_COMMIT_MESSAGE" value="brigadas, evacuación y recursos" />
+    <MESSAGE value="reportes, getters/setters y cierre de clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="reportes, getters/setters y cierre de clase" />
   </component>
 </project>
