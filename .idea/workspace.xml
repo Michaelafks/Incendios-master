@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="Declaraacion de variables">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/AsignacionRecurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/AsignacionRecurso.java" afterDir="false" />
+    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="Gets y Sets">
+      <change beforePath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/Incendio.java" beforeDir="false" afterPath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/Incendio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +92,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit &#10;Recurso&#10;Recursopesado&#10;terreno&#10;parte de nicolas" />
     <MESSAGE value="Declaraacion de variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Declaraacion de variables" />
+    <MESSAGE value="Constructor" />
+    <MESSAGE value="Gets y Sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gets y Sets" />
   </component>
 </project>
