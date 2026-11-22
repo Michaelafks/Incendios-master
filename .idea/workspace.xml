@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="Initial commit &#10;Recurso&#10;Recursopesado&#10;terreno&#10;parte de nicolas" />
+    <list default="true" id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="Declaraacion de variables">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/AsignacionRecurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/incendio-master/incendios/src/incendios/modelo/AsignacionRecurso.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Michaelafks/Incendios-master.git&quot;,
-    &quot;accountId&quot;: &quot;c65d26be-c89f-4cf5-894c-44680de3b951&quot;
+    &quot;accountId&quot;: &quot;366d7d3f-87a2-4e5b-9742-aa29a377a838&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -49,10 +52,21 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8061e87a-ccda-4856-b4b7-7e89479cdf02" name="Changes" comment="" />
@@ -72,9 +86,13 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit &#10;Recurso&#10;Recursopesado&#10;terreno&#10;parte de nicolas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit &#10;Recurso&#10;Recursopesado&#10;terreno&#10;parte de nicolas" />
+    <MESSAGE value="Declaraacion de variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Declaraacion de variables" />
   </component>
 </project>
