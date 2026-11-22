@@ -72,20 +72,52 @@ public class Brigadista {
         if (brigadaAsignada != null) brigadaAsignada.setUbicacionActual(ubicacion);
     }
 
-    public int getIdBrigadista() { return idBrigadista; }
-    public void setIdBrigadista(int idBrigadista) { this.idBrigadista = idBrigadista; }
-    public String getIdentificacion() { return identificacion; }
-    public void setIdentificacion(String identificacion) { this.identificacion = identificacion; }
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
-    public String getEspecialidad() { return especialidad; }
-    public void setEspecialidad(String especialidad) { this.especialidad = especialidad; }
-    public String getEstado() { return estado; }
-    public void setEstado(String estado) { this.estado = estado; }
-    public double getHorasServicio24() { return horasServicio24; }
-    public void setHorasServicio24(double horasServicio24) { this.horasServicio24 = horasServicio24; }
-    public double getHorasContinuas() { return horasContinuas; }
-    public void setHorasContinuas(double horasContinuas) { this.horasContinuas = horasContinuas; }
-    public Brigada getBrigadaAsignada() { return brigadaAsignada; }
-    public void setBrigadaAsignada(Brigada brigadaAsignada) { this.brigadaAsignada = brigadaAsignada; }
+    public int getIdBrigadista() {
+        return idBrigadista;
+    }
+    public void setIdBrigadista(int idBrigadista) {
+        this.idBrigadista = idBrigadista;
+    }
+    public String getIdentificacion() {
+        return identificacion;
+    }
+    public void setIdentificacion(String identificacion) {
+        this.identificacion = identificacion;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public String getEspecialidad() {
+        return especialidad;
+    }
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
+    public String getEstado() {
+        return estado;
+    }
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    public double getHorasServicio24() {
+        return horasServicio24;
+    }
+    public void setHorasServicio24(double horasServicio24) {
+        this.horasServicio24 = horasServicio24;
+    }
+    public double getHorasContinuas() {
+        return horasContinuas;
+    }
+    public void setHorasContinuas(double horasContinuas) {
+        this.horasContinuas = horasContinuas;
+    }
+    public Brigada getBrigadaAsignada() {
+        return brigadaAsignada;
+    }
+    public void setBrigadaAsignada(Brigada brigadaAsignada) {
+        this.brigadaAsignada = brigadaAsignada;
+    }
 }
