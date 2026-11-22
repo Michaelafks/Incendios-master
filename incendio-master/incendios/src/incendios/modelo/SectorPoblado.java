@@ -84,4 +84,5 @@ public class SectorPoblado {
     public String getEstadoEvacuacion() { return estadoEvacuacion; }
     public void setEstadoEvacuacion(String estadoEvacuacion) { this.estadoEvacuacion = estadoEvacuacion; }
     public List<Incendio> getIncendios() { return incendios; }
+
 }
