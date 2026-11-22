@@ -296,28 +296,72 @@ public class Incendio {
         sb.append("Recursos: ").append(contarRecursos()).append(" (vehiculos: ").append(contarVehiculos()).append(")\n");
         return sb.toString();
     }
-
-    public int getIdIncendio() { return idIncendio; }
-    public void setIdIncendio(int idIncendio) { this.idIncendio = idIncendio; }
-    public String getUbicacion() { return ubicacion; }
-    public void setUbicacion(String ubicacion) { this.ubicacion = ubicacion; }
-    public String getEstado() { return estado; }
-    public void setEstado(String estado) { this.estado = estado; }
-    public String getTipoVegetacion() { return tipoVegetacion; }
-    public void setTipoVegetacion(String tipoVegetacion) { this.tipoVegetacion = tipoVegetacion; this.severidad = calcularIEP(); }
-    public double getTemperatura() { return temperatura; }
-    public void setTemperatura(double temperatura) { this.temperatura = temperatura; this.severidad = calcularIEP(); }
-    public double getViento() { return viento; }
-    public void setViento(double viento) { this.viento = viento; this.severidad = calcularIEP(); }
-    public double getDireccionFuego() { return direccionFuego; }
-    public void setDireccionFuego(double direccionFuego) { this.direccionFuego = direccionFuego; }
-    public double getSeveridad() { return severidad; }
-    public LocalDate getFechaInicio() { return fechaInicio; }
-    public void setFechaInicio(LocalDate fechaInicio) { this.fechaInicio = fechaInicio; }
-    public Terreno getTerreno() { return terreno; }
-    public void setTerreno(Terreno terreno) { this.terreno = terreno; }
-    public List<Brigada> getBrigadas() { return brigadas; }
-    public List<SectorPoblado> getSectoresAfectados() { return sectoresAfectados; }
-    public List<incendios.modelo.AsignacionRecurso> getAsignaciones() { return asignaciones; }
+    //getters y setters
+    public int getIdIncendio() {
+        return idIncendio;
+    }
+    public void setIdIncendio(int idIncendio) {
+        this.idIncendio = idIncendio;
+    }
+    public String getUbicacion() {
+        return ubicacion;
+    }
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+    public String getEstado() {
+        return estado;
+    }
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    public String getTipoVegetacion() {
+        return tipoVegetacion;
+    }
+    public void setTipoVegetacion(String tipoVegetacion) {
+        this.tipoVegetacion = tipoVegetacion; this.severidad = calcularIEP();
+    }
+    public double getTemperatura() {
+        return temperatura;
+    }
+    public void setTemperatura(double temperatura) {
+        this.temperatura = temperatura; this.severidad = calcularIEP();
+    }
+    public double getViento() {
+        return viento;
+    }
+    public void setViento(double viento) {
+        this.viento = viento; this.severidad = calcularIEP();
+    }
+    public double getDireccionFuego() {
+        return direccionFuego;
+    }
+    public void setDireccionFuego(double direccionFuego) {
+        this.direccionFuego = direccionFuego;
+    }
+    public double getSeveridad() {
+        return severidad;
+    }
+    public LocalDate getFechaInicio() {
+        return fechaInicio;
+    }
+    public void setFechaInicio(LocalDate fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+    public Terreno getTerreno() {
+        return terreno;
+    }
+    public void setTerreno(Terreno terreno) {
+        this.terreno = terreno;
+    }
+    public List<Brigada> getBrigadas() {
+        return brigadas;
+    }
+    public List<SectorPoblado> getSectoresAfectados() {
+        return sectoresAfectados;
+    }
+    public List<incendios.modelo.AsignacionRecurso> getAsignaciones() {
+        return asignaciones;
+    }
 
 }
