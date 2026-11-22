@@ -13,10 +13,22 @@ public class AsignacionRecurso {
         this.fechaInicio = fechaInicio;
     }
 
-    public Incendio getIncendio() { return incendio; }
-    public void setIncendio(Incendio incendio) { this.incendio = incendio; }
-    public Recurso getRecurso() { return recurso; }
-    public void setRecurso(Recurso recurso) { this.recurso = recurso; }
-    public LocalDate getFechaInicio() { return fechaInicio; }
-    public void setFechaInicio(LocalDate fechaInicio) { this.fechaInicio = fechaInicio; }
+    public Incendio getIncendio() {
+        return incendio;
+    }
+    public void setIncendio(Incendio incendio) {
+        this.incendio = incendio;
+    }
+    public Recurso getRecurso() {
+        return recurso;
+    }
+    public void setRecurso(Recurso recurso) {
+        this.recurso = recurso;
+    }
+    public LocalDate getFechaInicio() {
+        return fechaInicio;
+    }
+    public void setFechaInicio(LocalDate fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
 }
