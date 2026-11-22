@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Incendio {
     public static final String[] TIPOS_VEGETACION = {
-            "Paramo / matorral seco", "Bosque de pino o similar", "Pastizal", "Bosque humedo"};
+            "Paramo / matorral seco", "Bosque de pino o parecido", "Pastizal", "Bosque humedo"};
     private static final double[] FACTORES_VEGETACION = {1.5, 1.3, 1.1, 0.7};
     private static final double ANGULO_RIESGO = 45;
 
@@ -296,7 +296,7 @@ public class Incendio {
         sb.append("Recursos: ").append(contarRecursos()).append(" (vehiculos: ").append(contarVehiculos()).append(")\n");
         return sb.toString();
     }
-
+//getters and setters
     public int getIdIncendio() { return idIncendio; }
     public void setIdIncendio(int idIncendio) { this.idIncendio = idIncendio; }
     public String getUbicacion() { return ubicacion; }
