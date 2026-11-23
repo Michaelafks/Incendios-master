@@ -22,12 +22,24 @@ public class Terreno {
         return pendiente > 30 || accesibilidad.equals(ACCESIBILIDAD[2]);
     }
 
-    public double getPendiente() { return pendiente; }
-    public void setPendiente(double pendiente) { this.pendiente = pendiente; }
-    public String getAccesibilidad() { return accesibilidad; }
-    public void setAccesibilidad(String accesibilidad) { this.accesibilidad = accesibilidad; }
-    public String getSuperficie() { return superficie; }
-    public void setSuperficie(String superficie) { this.superficie = superficie; }
+    public double getPendiente() {
+        return pendiente;
+    }
+    public void setPendiente(double pendiente) {
+        this.pendiente = pendiente; 
+    }
+    public String getAccesibilidad() {
+        return accesibilidad; 
+    }
+    public void setAccesibilidad(String accesibilidad) {
+        this.accesibilidad = accesibilidad;
+    }
+    public String getSuperficie() {
+        return superficie;
+    }
+    public void setSuperficie(String superficie) {
+        this.superficie = superficie; 
+    }
 
     @Override
     public String toString() {
